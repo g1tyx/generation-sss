@@ -608,7 +608,7 @@ var cnRegReplace = new Map([
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
     [/^(.+) como and (.+) comodust.$/, '$1 como 和 $2 como尘埃.'],
     [/^(.+) como and (.+) comodust. \((.+) comodust\/s\)$/, '$1 como 和 $2 como尘埃. \($3 como尘埃\/秒\)'],
-    [/^you got (.+) como and a S3 100 objekt.$/, '你得到了 $1 como 和一个 S3 100 对象。'],
+    [/^you got (.+) como and a S(.+) (.+) objekt.$/, '你得到了 $1 como 和一个 S$2 $3 对象。'],
     [/^get all S([\d\.,]+) Atom([\d\.,]+) objekts.$/, '获取所有 S$1 原子$2 对象。'],
     [/^gdgc ([\d\.,]+): AD challenge ([\d\.,]+)$/, 'gdgc $1: 反物质维度 挑战 $2'],
 	[/^([\d\.]+)\/sec$/, '$1\/秒'],

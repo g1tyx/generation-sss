@@ -278,7 +278,7 @@ var cnItems = {
     "it's gold? or white?": "是金色？ 还是白色？",
     "reach 24^24 for the first time.": "首次达到24^24。",
     "S1 dimension is heavily weakened but gets an exponentially increasing bonus.": "S1维度被严重削弱，但奖励却呈指数级增长。",
-    "S7 and S8 dimensions are unavailable.": "S7 和 S8 尺寸不可用。",
+    "S7 and S8 dimensions are unavailable.": "S7 和 S8 维度不可用。",
     "start": "开始",
     "termination": "终止",
     "triplequarterS": "四分之三 S",
@@ -592,8 +592,7 @@ var cnExcludeWhole = [
     /^([\d\.]+)e([\d\.,]+)x$/,
     /^[\u4E00-\u9FA5]+$/
 ];
-var cnExcludePostfix = [
-]
+var cnExcludePostfix = []
 
 //正则替换，带数字的固定格式句子
 //纯数字：(\d+)
@@ -611,11 +610,11 @@ var cnRegReplace = new Map([
     [/^you got (.+) como and a S(.+) (.+) objekt.$/, '你得到了 $1 como 和一个 S$2 $3 对象。'],
     [/^get all S([\d\.,]+) Atom([\d\.,]+) objekts.$/, '获取所有 S$1 原子$2 对象。'],
     [/^gdgc ([\d\.,]+): AD challenge ([\d\.,]+)$/, 'gdgc $1: 反物质维度 挑战 $2'],
-	[/^([\d\.]+)\/sec$/, '$1\/秒'],
-	[/^([\d\.,]+)\/sec$/, '$1\/秒'],
-	[/^([\d\.,]+) OOMs\/sec$/, '$1 OOMs\/秒'],
-	[/^([\d\.]+) OOMs\/sec$/, '$1 OOMs\/秒'],
-	[/^([\d\.]+)e([\d\.,]+)\/sec$/, '$1e$2\/秒'],
+    [/^([\d\.]+)\/sec$/, '$1\/秒'],
+    [/^([\d\.,]+)\/sec$/, '$1\/秒'],
+    [/^([\d\.,]+) OOMs\/sec$/, '$1 OOMs\/秒'],
+    [/^([\d\.]+) OOMs\/sec$/, '$1 OOMs\/秒'],
+    [/^([\d\.]+)e([\d\.,]+)\/sec$/, '$1e$2\/秒'],
     [/^requires ([\d\.]+) more research points$/, '需要$1个研究点'],
     [/^([\d\.]+)e([\d\.,]+) points$/, '$1e$2 点数'],
     [/^([\d\.]+) elves$/, '$1 精灵'],
